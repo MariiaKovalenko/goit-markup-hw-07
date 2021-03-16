@@ -8,9 +8,12 @@
   display: flex;
 }
 
+.size-footer__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .size-footer__link {
   display: block;
-  margin-bottom: 9px;
 
   color: $primary-white-color;
   font-style: normal;
@@ -23,7 +26,6 @@
   color: $accent-color;
 }
 }
-
 
 .size-footer__title {
   display: block;
@@ -38,10 +40,6 @@
   &:focus {
   color: $accent-color;
 }
-}
-
-.size-footer__title:nth-last-child(2) {
-  margin-bottom: 9px;
 }
 
 /* Social-footer */

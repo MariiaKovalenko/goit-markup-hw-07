@@ -1,20 +1,24 @@
 /* Фильтер работ */
 
-.work-nav {
+.filters {
+  padding: 94px 0;
+}
+
+.filters__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.work-nav__list {
+.filters__item {
   justify-content: center;
 }
 
-.work-nav__list:not(:last-child) {
+.filters__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.work-nav__btn {
+.filters__btn {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -41,7 +45,7 @@
 
 /* Portfolio */
 
-.portfolio-list {
+.portfolio {
   display: flex;
   padding: 0;
   margin: 0;
@@ -51,7 +55,7 @@
   margin-left: calc(-1 * var(--card-set));
 }
 
-.portfolio-list__item {
+.portfolio__item {
 //   flex-basis: calc(100% / 3 - $card-set);
 //   margin-left: $card-set;
 //   margin-top: $card-set;
@@ -66,18 +70,18 @@
 }
 }
 
-.portfolio-list__item:focus,
-.portfolio-list__item:hover .overlay__container {
+.portfolio__item:focus,
+.portfolio__item:hover .overlay__container {
   box-shadow: $overlay-shadow;
   transform: translateY(0);
   opacity: 1;
 }
 
-.portfolio-list__item:nth-child(3n) {
+.portfolio__item:nth-child(3n) {
     margin-right: 0;
 }
 
-.portfolio-list__item:nth-last-child(-n+3) {
+.portfolio__item:nth-last-child(-n+3) {
     margin-bottom: 0;
 } 
 
@@ -123,7 +127,7 @@
   border-top: none;
 }
 
-.portfolio-list__item--title {
+.portfolio__item--title {
   color: $title-text-color;
   font-weight: 700;
   font-size: 18px;
@@ -133,7 +137,7 @@
   margin: 0 0 4px 0;
 }
 
-.portfolio-list__item--text {
+.portfolio__item--text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;

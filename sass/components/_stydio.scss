@@ -44,6 +44,10 @@
 
 // Feature
 
+.feature {
+  padding: 94px 0;
+}
+
 .feature__list {
   display: flex;
 }
@@ -88,7 +92,7 @@
 /* Working */
 
 .working {
-  padding-top: 0;
+  padding: 0 0 94px;
 }
 
 .working__list {
@@ -136,6 +140,7 @@
 /* Team */
 
 .team {
+  padding: 94px 0;
   background-color: $bg-team-section;
 }
 
@@ -219,6 +224,10 @@
 }
 
 /* Постоянные клиенты */
+
+.client {
+  padding: 94px 0;
+}
 
 .client__list {
   display: flex;
